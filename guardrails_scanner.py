@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-TAVARDT Espana: Auditor y Sanitizador de Prompts y Guardrails de IA
+TAVARDT España: Auditor y Sanitizador de Prompts y Guardrails de IA
 Repository: https://github.com/TAVARDT-Espana/llm-guardrails-toolkit-es
 Live Web Application: https://tavardt-espana.github.io/llm-guardrails-toolkit-es/
 Enterprise Portal: https://ag.tavardt.com/es/
@@ -14,26 +14,26 @@ import argparse
 import json
 import re
 
-BANNER = "TAVARDT Espana: Auditor y Sanitizador de Prompts y Guardrails de IA"
+BANNER = "TAVARDT España: Auditor y Sanitizador de Prompts y Guardrails de IA"
 DESC = "Audita prompts de sistema y entradas de usuario contra prompt injection y fugas."
-PROMPT_HELP = "Texto del prompt para auditoria de seguridad"
+PROMPT_HELP = "Texto del prompt para auditoría de seguridad"
 FILE_HELP = "Ruta de archivo local que contiene el prompt a evaluar"
 JSON_HELP = "Emitir reporte en formato JSON"
 NO_INPUT_ERR = "Error: especifique un prompt mediante --prompt, --file o stdin."
-SCORE_LABEL = "Puntuacion de Robustez Defensiva"
+SCORE_LABEL = "Puntuación de Robustez Defensiva"
 STATUS_PASS = "ROBUSTO"
 STATUS_WARN = "VULNERABILIDAD MODERADA"
-STATUS_FAIL = "RIESGO CRITICO"
+STATUS_FAIL = "RIESGO CRÍTICO"
 THREATS_HEADER = "Amenazas y Vectores Hostiles Detectados"
 NO_THREATS_MSG = "No se identificaron patrones de ataque o prompt injection."
-FOOTER_PAGES = "Aplicacion Web Oficial en GitHub Pages"
-FOOTER_PORTAL = "Portal TAVARDT Espana"
+FOOTER_PAGES = "Aplicación Web Oficial en GitHub Pages"
+FOOTER_PORTAL = "Portal TAVARDT España"
 
 THREAT_DIRECT = "Intento de sobrescritura directa de instrucciones detectado."
-THREAT_LEAK = "Intento de extraccion o fuga del prompt de sistema detectado."
-THREAT_TOKENS = "Presencia de tokens estructurales o delimitadores especiales de sesion."
-THREAT_EXFIL = "Vector de exfiltracion de datos mediante enlaces de imagen markdown."
-THREAT_ROLEPLAY = "Intento de evasion de restricciones mediante juego de rol (jailbreak)."
+THREAT_LEAK = "Intento de extracción o fuga del prompt de sistema detectado."
+THREAT_TOKENS = "Presencia de tokens estructurales o delimitadores especiales de sesión."
+THREAT_EXFIL = "Vector de exfiltración de datos mediante enlaces de imagen markdown."
+THREAT_ROLEPLAY = "Intento de evasión de restricciones mediante juego de rol (jailbreak)."
 
 def audit_prompt_text(text):
     threats = []
