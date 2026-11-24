@@ -55,7 +55,6 @@ python guardrails_scanner.py -file prompt.txt -json
 
 ## Cumplimiento y Estándares Técnicos
 
-- **Jurisdicción**: España
 - **Estándar de Cumplimiento**: Guía de Seguridad para Modelos de Lenguaje e IA (INCIBE y OWASP)
 - **Organización Mantenedora**: [TAVARDT-Espana](https://github.com/TAVARDT-Espana)
 
@@ -69,3 +68,7 @@ python guardrails_scanner.py -file prompt.txt -json
 
 ### Licencia
 Distribuido bajo la Licencia MIT. Consulte el archivo [LICENSE](LICENSE) para más detalles.
+
+***
+
+© 2026 TAVARDT. Todos los derechos reservados.
