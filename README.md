@@ -5,7 +5,7 @@
 
 Protección activa contra Prompt Injection, fuga de contexto del sistema y vectores de exfiltración en modelos de lenguaje.
 
-Desarrollado y mantenido por la división de ciberseguridad e inteligencia artificial de **TAVARDT España**.
+Desarrollado y mantenido por la división de ciberseguridad e inteligencia artificial de **TAVARDT**.
 
 ***
 
@@ -56,13 +56,8 @@ python guardrails_scanner.py -file prompt.txt -json
 ## Cumplimiento y Estándares Técnicos
 
 - **Estándar de Cumplimiento**: Guía de Seguridad para Modelos de Lenguaje e IA (INCIBE y OWASP)
-- **Organización Mantenedora**: [TAVARDT-Espana](https://github.com/TAVARDT-Espana)
 
-## Portales Oficiales
 
-- **Portal Institucional**: [Portal Institucional](https://ag.tavardt.com/es/)
-- **Centro de Herramientas**: [Central de Ferramentas](https://tools.tavardt.com/es/)
-- **Canal de Atención y Soporte Técnico**: [https://ag.tavardt.com/es/contacto/](https://ag.tavardt.com/es/contacto/)
 
 ***
 
