@@ -57,7 +57,13 @@ python guardrails_scanner.py -file prompt.txt -json
 
 - **Estándar de Cumplimiento**: Guía de Seguridad para Modelos de Lenguaje e IA (INCIBE y OWASP)
 
+***
 
+## Enlaces Útiles
+
+* **Portal Corporativo:** https://ag.tavardt.com/es/
+* **Suite de Diagnósticos:** https://tools.tavardt.com/es/
+* **Contacto Técnico:** https://ag.tavardt.com/es/contacto/
 
 ***
 
