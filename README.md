@@ -6,8 +6,6 @@
 
 Protección activa contra Prompt Injection, fuga de contexto del sistema y vectores de exfiltración en modelos de lenguaje.
 
-Desarrollado y mantenido por la división de ciberseguridad e inteligencia artificial de **TAVARDT**.
-
 ***
 
 ## Demostración Online y Auditoría en el Navegador
@@ -69,7 +67,7 @@ python guardrails_scanner.py -file prompt.txt -json
 ***
 
 ### Licencia
-Distribuido bajo la Licencia MIT. Consulte el archivo [LICENSE](LICENSE) para más detalles.
+Distribuido bajo la Licencia MIT.
 
 ***
 
